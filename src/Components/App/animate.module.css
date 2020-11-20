@@ -1,0 +1,21 @@
+.appear {
+  transform: translateY(-150%);
+}
+.appearActive {
+  transform: translateY(0);
+  transition: transform 500ms linear;
+}
+.enter {
+  transform: scale(0.1);
+}
+.enterActive {
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+.exit {
+  transform: scale(1);
+}
+.exitActive {
+  transform: scale(0.1);
+  transition: transform 250ms linear;
+}
